@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;     /*Comentario para CSS*/
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ola mundo!</h1>
+    <p>Ja me livrei da maldição</p>  <!--Comentario para HTML-->
+
+    <script>
+        var n1 = window.prompt('Digite um numero')
+        var n2 =Number.parseInt(window.prompt('Digite outro numero')) 
+        var n3 =Number(window.prompt('Digite outro numero')) 
+        var n4 =Number.parseFloat(window.prompt('Digite outro numero')) 
+        var s = /* n1  + */ n2 + n3 + n4
+        window.alert(`A soma de ${n2} + ${n3} + ${n4}  é ${s}`)  
+        // NUMBER + NUMBER = para adição
+        // STRING + STRING = para concatenação 
+    </script>
+</body>
+</html>
