@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gustavo Borges">
+    <title>Nacionalidade</title>
+    <style>
+        body{
+            background-image: linear-gradient(90deg,rgb(165, 210, 255),rgb(105, 173, 255),rgb(44, 44, 250));
+            text-align: center;
+            font-family:monospace,Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-size: 40px;
+            text-shadow: 1px 1px 3px;
+        }
+        input{
+            height: 40px;
+            font-size: 16px;
+            margin-top: 10px;
+            border: none;
+            background-color: white;
+            margin-right: 5px;
+        }
+
+        p{
+            font-size: 25px;
+        }
+        #botao:hover{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Identificador de Nacionalidade</h1>
+
+    <p>
+        Qual é o seu país ? <br> 
+        <input type="text" id="pais">
+
+        <input type="button" value="Buscar" onclick="nasc()">
+    </p>
+
+    <p id="res"></p>
+    
+    <script>
+        function nasc(){
+
+            var p1 = document.getElementById('pais').value;
+
+            var p2 = p1.toLowerCase();
+       
+            if (p2 === "brasil"){
+                res.innerHTML = `Você mora no <strong>${p2}</strong>, portanto é <strong>brasileiro.</strong>`
+            }
+            
+            else{
+                res.innerHTML = `Você mora no <strong>${p2}</strong>, portanto é <strong>Estrangeiro</strong>.`
+            }
+            res.innerHTML = 'Fim programa'
+        }
+    </script>
+</body>
+</html>
+
