@@ -1,0 +1,36 @@
+@charset "UFT-8";
+
+body{
+    font-family: Arial;
+    height: 96.1vh;
+}
+header {
+    color: white;
+    text-align: center;
+    font-size: 1.4em;
+}
+section {
+    background-color: white;
+    width: 400px;
+    height: 235px;
+    margin: auto;
+    border-radius: 15px;
+}
+div {
+    text-align: center;
+}
+div#msg {
+    text-align: center;
+    padding: 10px;
+}
+div img {
+    border-radius: 50%;
+    background-size: cover; 
+}
+footer {
+color: white;
+text-align: center;
+padding-top: 15px;
+font-style: italic;
+font-size: 1.2em;
+}
