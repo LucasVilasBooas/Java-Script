@@ -7,30 +7,21 @@
 </head>
 <body>
     <h1>Nacionalidade</h1>
-
     <input:txt>Onde voce nasceu?</input:txt>
-
     <input type="text" name="pais" id="pais">
-    
     <input type="button" value="Buscar" onclick="nasc()">
-    
     <div id="res"></div>
-    
     <div id="fim"></div>
     <script>
         function nasc() {
-    
             var p1 = window.document.getElementById('pais').value
-
             var p2 = p1.toLowerCase()
-
             if (p2 != 'brasil' ) {
                 res.innerHTML = `Você nasceu no <strong>${p2}</strong>, portanto é <strong>estranjeiro.</strong>`
             } 
             else {
                 res.innerHTML = '<p>Voce é <strong>brasileiro</strong></p>'
             }
-            
             fim.innerHTML = 'fim programa'
         }
     </script>
