@@ -3,15 +3,17 @@
 body{
     font-family: Arial;
     height: 96.1vh;
+    background-color: lightblue;
 }
 header {
-    color: white;
     text-align: center;
     font-size: 1.4em;
+    color: white;
 }
 section {
+    padding: 10px;
     background-color: white;
-    width: 400px;
+    width: 450px;
     height: 235px;
     margin: auto;
     border-radius: 15px;
