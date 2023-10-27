@@ -14,25 +14,19 @@ function verificar() {
         if (fsex[0].checked) {
             genero = 'masculino'
             if (idade >= 0 && idade < 10){
-                // criança
                 img.setAttribute('src', 'menino.jpg')
             } else if (idade <60 ){
-                // adiçtp
                 img.setAttribute('src', 'homem.jpg')
             } else {
-                //idoso
                 img.setAttribute('src', 'idoso.jpeg')
             }
         } else if (fsex[1].checked) {
             genero = "feminino"
             if (idade >= 0 && idade < 10){
-                // criança
                 img.setAttribute('src', 'menina.jpg')
             } else if (idade <60 ){
-                // adiçtp
                 img.setAttribute('src', 'mulher.jpg')
             } else {
-                //idoso
                 img.setAttribute('src', 'idosa.jpg')
             }
         }
