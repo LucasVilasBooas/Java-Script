@@ -3,7 +3,7 @@
 body{
     font-family: Arial;
     height: 96.1vh;
-    background-color: lightblue;
+    background-color: rgb(37, 64, 73);
 }
 header {
     text-align: center;
@@ -14,7 +14,7 @@ section {
     padding: 10px;
     background-color: white;
     width: 450px;
-    height: 235px;
+    height: 335px;
     margin: auto;
     border-radius: 15px;
 }
