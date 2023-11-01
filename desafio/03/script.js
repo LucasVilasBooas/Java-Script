@@ -1,17 +1,30 @@
-function carregar() {
-    var msg = window.document.getElementById('msg')
-    var img = window.document.getElementById('img2')
-    var data =new Date()
-    var hora =data.getHours()
-    msg.innerHTML = `Agora são ${hora} horas`
-    if (hora < 12) {
-        img.src = 'manha.jpg'
-        document.body.style.backgroundImage= 'linear-gradient(to top, rgb(255, 72, 0), blue)'
-    } else if  (hora >= 12 && hora < 18) {
-        img.src = 'tarde.jpg'
-        document.body.style.backgroundImage= 'linear-gradient(to top, rgb(200, 215, 238), rgb(83, 140, 247'
+function contar() {
+    let ini = document.getElementById('txti')
+    let fim = document.getElementById('txtf')
+    let passo = document.getElementById('txtp')
+    let res = document.getElementById('res')
+
+    if ( ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
+        //window.alert("ERRO! Dados Incompletos")
+        res.innerHTML = 'Impossivel Contar'
     } else {
-        img.src = 'noite.jpg'
-        document.body.style.backgroundImage= 'linear-gradient(to top, rgb(51, 116, 214), rgb(4, 23, 58)'
+        res.innerHTML = 'Contando: <br>'    
+        let i = Number(ini.value)
+        let f = Number(fim.value)
+        let p = Number(passo.value)
+        if (p <= 0) {
+            window.alert('Passo Invalido !!! Considerando passo 1 ')
+            p = 1
+        }
+        if (i < f) { // contagem crescente
+            for (let c = i ; c <= f ; c+= p ) { 
+                res.innerHTML += `${c} \u{1F449}`
+        }
+        } else { // contagem decrescente
+            for ( c = i ; c >= f; c -= p ){
+                res.innerHTML += `${c} \u{1F449}` 
+            }
+        }
+        res.innerHTML += `\u{1F3C1}`    
     }
 }

@@ -3,21 +3,19 @@
 body{
     font-family: Arial;
     height: 96.1vh;
+    background-color: rgb(53, 159, 194);
 }
 header {
-    color: white;
     text-align: center;
     font-size: 1.4em;
+    color: white;
 }
 section {
+    padding: 10px;
     background-color: white;
-    width: 400px;
-    height: 235px;
+    width: 450px;
     margin: auto;
     border-radius: 15px;
-}
-div {
-    text-align: center;
 }
 div#msg {
     text-align: center;
