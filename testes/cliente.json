@@ -1,0 +1,84 @@
+[
+    {
+    "nome":  "zucas 1",
+    "idade": 32,
+    "cpf": "04073116533",
+    "email": "lucaslcs.vilasboas@gmail.com",
+    "telefone": ["12345", "546786"],
+    "endereco": {
+        "rua":"Arroyo",
+        "numero": 897,
+        "apartamento": true
+        }
+    },
+
+    {
+    "nome":  "gucas 2",
+    "idade": 32,
+    "cpf": "04073116533",
+    "email": "lucaslcs.vilasboas@gmail.com",
+    "telefone": ["12345", "546786"],
+        "endereco": {
+        "rua":"Arroyo",
+        "numero": 897,
+        "apartamento": true
+        }
+    },
+
+    {
+    "nome":  "pucas",
+    "idade": 32,
+    "cpf": "04073116533",
+    "email": "lucaslcs.vilasboas@gmail.com",
+    "telefone": ["12345", "546786"],
+    "endereco": {
+        "rua":"Arroyo",
+        "numero": 897,
+        "apartamento": true,
+        "complemento": "AP 24 F"
+        }
+    },
+
+    {
+    "nome":  "qucas",
+    "idade": 32,
+    "cpf": "04073116533",
+    "email": "lucaslcs.vilasboas@gmail.com",
+    "telefone": ["12345", "546786"],
+    "endereco": {
+        "rua":"Arroyo",
+        "numero": 897,
+        "apartamento": true,
+        "complemento": "AP 24 F"
+        }
+    },
+
+    {
+    "nome":  "aucas",
+    "idade": 32,
+    "cpf": "04073116533",
+    "email": "lucaslcs.vilasboas@gmail.com",
+    "telefone": ["12345", "546786"],
+    "endereco": {
+        "rua":"Arroyo",
+        "numero": 897,
+        "apartamento": true,
+        "complemento": "AP 24 F"
+        }
+    },
+
+    {
+    "nome":  "iucas",
+    "idade": 32,
+    "cpf": "04073116533",
+    "email": "lucaslcs.vilasboas@gmail.com",
+    "telefone": ["12345", "546786"],
+    "endereco": {
+        "rua":"Arroyo",
+        "numero": 897,
+        "apartamento": true,
+        "complemento": "AP 24 F"
+        }
+    }
+
+]
